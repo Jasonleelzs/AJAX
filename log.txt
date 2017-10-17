@@ -1,0 +1,2041 @@
+10:03:44 开始运行于 127.0.0.1:3000
+10:03:48 ip ('127.0.0.1', 13639)
+10:03:48 ip ('127.0.0.1', 13640)
+10:03:48 ip ('127.0.0.1', 13641)
+10:03:48 ip ('127.0.0.1', 13642)
+10:03:48 request log:
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=eelledbj35jl223s
+
+
+10:03:48 ip ('127.0.0.1', 13643)
+10:03:48 Request: path 和 query / {}
+10:03:48 ip ('127.0.0.1', 13644)
+10:03:48 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=eelledbj35jl223s']
+10:03:48 Request: headers 和 cookies {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Connection': 'keep-alive', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=eelledbj35jl223s', 'Host': 'localhost:3000', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': 'eelledbj35jl223s', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:03:48 load []
+10:03:48 非登录用户
+10:03:48 redirect r HTTP/1.1 302 GUA
+Content-Type: text/html
+Location: /login
+
+
+10:03:48 response log:
+HTTP/1.1 302 GUA
+Content-Type: text/html
+Location: /login
+
+
+10:03:48 request log:
+GET /login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=eelledbj35jl223s
+
+
+10:03:48 Request: path 和 query /login {}
+10:03:48 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=eelledbj35jl223s']
+10:03:48 Request: headers 和 cookies {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Connection': 'keep-alive', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=eelledbj35jl223s', 'Host': 'localhost:3000', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': 'eelledbj35jl223s', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:03:48 login, cookies {'sid': 'eelledbj35jl223s', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:03:48 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录页面</title>
+</head>
+<body>
+    <h1>登录</h1>
+    <h2>你好 </h2>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <button type="submit">登录</button>
+    </form>
+    <h3></h3>
+</body>
+</html>
+10:03:58 request log:
+
+10:03:58 request log:
+
+10:03:58 request log:
+
+10:03:58 request log:
+
+10:03:59 ip ('127.0.0.1', 13656)
+10:03:59 ip ('127.0.0.1', 13657)
+10:03:59 ip ('127.0.0.1', 13658)
+10:03:59 request log:
+GET /register HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=eelledbj35jl223s
+
+
+10:03:59 ip ('127.0.0.1', 13659)
+10:03:59 Request: path 和 query /register {}
+10:03:59 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=eelledbj35jl223s']
+10:03:59 Request: headers 和 cookies {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Connection': 'keep-alive', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=eelledbj35jl223s', 'Host': 'localhost:3000', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': 'eelledbj35jl223s', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:03:59 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<body>
+    <h1>注册</h1>
+    <form action="/register" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <button type="submit">注册</button>
+    </form>
+</body>
+</html>
+10:03:59 ip ('127.0.0.1', 13661)
+10:04:03 request log:
+POST /register HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 25
+Cache-Control: max-age=0
+Origin: http://localhost:3000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/register
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=eelledbj35jl223s
+
+username=xly&password=123
+10:04:03 Request: path 和 query /register {}
+10:04:03 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=eelledbj35jl223s']
+10:04:03 Request: headers 和 cookies {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Content-Type': 'application/x-www-form-urlencoded', 'Origin': 'http://localhost:3000', 'Cache-Control': 'max-age=0', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=eelledbj35jl223s', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'localhost:3000', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Referer': 'http://localhost:3000/register', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36', 'Upgrade-Insecure-Requests': '1', 'Content-Length': '25'} {'sid': 'eelledbj35jl223s', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:04:03 kwargs,  {'username': 'xly'} <class 'dict'>
+10:04:03 load []
+10:04:03 debug save
+10:04:03 load []
+10:04:03 models []
+10:04:03 id is None
+10:04:03 first index 0
+10:04:03 save data/User.txt [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+] [{'username': 'xly', 'password': 'dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b', 'id': 0}]
+10:04:03 redirect r HTTP/1.1 302 GUA
+Content-Type: text/html
+Location: /login
+
+
+10:04:03 response log:
+HTTP/1.1 302 GUA
+Content-Type: text/html
+Location: /login
+
+
+10:04:03 request log:
+GET /login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/register
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=eelledbj35jl223s
+
+
+10:04:03 Request: path 和 query /login {}
+10:04:03 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=eelledbj35jl223s']
+10:04:03 Request: headers 和 cookies {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Connection': 'keep-alive', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=eelledbj35jl223s', 'Host': 'localhost:3000', 'Referer': 'http://localhost:3000/register', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': 'eelledbj35jl223s', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:04:03 login, cookies {'sid': 'eelledbj35jl223s', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:04:03 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录页面</title>
+</head>
+<body>
+    <h1>登录</h1>
+    <h2>你好 </h2>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <button type="submit">登录</button>
+    </form>
+    <h3></h3>
+</body>
+</html>
+10:04:09 request log:
+POST /login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 25
+Cache-Control: max-age=0
+Origin: http://localhost:3000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=eelledbj35jl223s
+
+username=xly&password=123
+10:04:09 Request: path 和 query /login {}
+10:04:09 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=eelledbj35jl223s']
+10:04:09 Request: headers 和 cookies {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Content-Type': 'application/x-www-form-urlencoded', 'Origin': 'http://localhost:3000', 'Cache-Control': 'max-age=0', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=eelledbj35jl223s', 'Accept-Encoding': 'gzip, deflate, br', 'Host': 'localhost:3000', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Referer': 'http://localhost:3000/login', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36', 'Upgrade-Insecure-Requests': '1', 'Content-Length': '25'} {'sid': 'eelledbj35jl223s', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:04:09 login, cookies {'sid': 'eelledbj35jl223s', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:04:09 kwargs,  {'username': 'xly'} <class 'dict'>
+10:04:09 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:04:09 kwargs,  {'username': 'xly'} <class 'dict'>
+10:04:09 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:04:09 debug save
+10:04:09 load []
+10:04:09 models []
+10:04:09 id is None
+10:04:09 first index 0
+10:04:09 save data/Session.txt [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "user_id": 0,
+    "id": 0
+  }
+] [{'session_id': 'rges4klg52djlg2k', 'user_id': 0, 'id': 0}]
+10:04:09 session < Session
+session_id: (rges4klg52djlg2k)
+user_id: (0)
+id: (0) 
+>
+
+10:04:09 redirect r HTTP/1.1 302 GUA
+Content-Type: text/html
+Set-Cookie: sid=rges4klg52djlg2k
+Location: /
+
+
+10:04:09 response log:
+HTTP/1.1 302 GUA
+Content-Type: text/html
+Set-Cookie: sid=rges4klg52djlg2k
+Location: /
+
+
+10:04:09 request log:
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k
+
+
+10:04:09 Request: path 和 query / {}
+10:04:09 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=rges4klg52djlg2k']
+10:04:09 Request: headers 和 cookies {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Cache-Control': 'max-age=0', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Connection': 'keep-alive', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k', 'Host': 'localhost:3000', 'Referer': 'http://localhost:3000/login', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': 'rges4klg52djlg2k', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:04:09 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "user_id": 0,
+    "id": 0
+  }
+]
+10:04:09 kwargs,  {'id': 0} <class 'dict'>
+10:04:09 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:04:09 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "user_id": 0,
+    "id": 0
+  }
+]
+10:04:09 kwargs,  {'id': 0} <class 'dict'>
+10:04:09 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:04:09 current user < User
+username: (xly)
+password: (dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b)
+id: (0) 
+>
+
+10:04:09 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>吃瓜主页</title>
+</head>
+<body>
+    <h1>Hello xly</h1>
+    <img src="/static?file=doge.gif"/>
+    <img src="/static?file=doge1.jpg"/>
+    <img src="/static?file=doge2.gif"/>
+    <br>
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
+    <a href="/todo/index">Todo</a>
+    <a href="/weibo/index">Weibo</a>
+</body>
+</html>
+10:04:09 ip ('127.0.0.1', 13669)
+10:04:09 request log:
+GET /static?file=doge1.jpg HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k
+
+
+10:04:09 Request: path 和 query /static {'file': 'doge1.jpg'}
+10:04:09 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=rges4klg52djlg2k']
+10:04:09 Request: headers 和 cookies {'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Connection': 'keep-alive', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k', 'Host': 'localhost:3000', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': 'rges4klg52djlg2k', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:04:09 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "user_id": 0,
+    "id": 0
+  }
+]
+10:04:09 kwargs,  {'id': 0} <class 'dict'>
+10:04:09 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:04:09 response for static size: 2643
+10:04:09 ip ('127.0.0.1', 13670)
+10:04:09 ip ('127.0.0.1', 13671)
+10:04:09 request log:
+GET /static?file=doge2.gif HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k
+
+
+10:04:09 Request: path 和 query /static {'file': 'doge2.gif'}
+10:04:09 request log:
+GET /static?file=doge.gif HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k
+
+
+10:04:09 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=rges4klg52djlg2k']
+10:04:09 Request: path 和 query /static {'file': 'doge.gif'}
+10:04:09 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=rges4klg52djlg2k']
+10:04:09 Request: headers 和 cookies {'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Connection': 'keep-alive', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k', 'Host': 'localhost:3000', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': 'rges4klg52djlg2k', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:04:09 Request: headers 和 cookies {'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Connection': 'keep-alive', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k', 'Host': 'localhost:3000', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': 'rges4klg52djlg2k', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:04:09 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "user_id": 0,
+    "id": 0
+  }
+]
+10:04:09 kwargs,  {'id': 0} <class 'dict'>
+10:04:09 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "user_id": 0,
+    "id": 0
+  }
+]
+10:04:09 kwargs,  {'id': 0} <class 'dict'>
+10:04:09 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:04:09 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:04:09 response for static size: 3690
+10:04:09 response for static size: 9564
+10:04:09 ip ('127.0.0.1', 13672)
+10:04:10 request log:
+GET /todo/index HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k
+
+
+10:04:10 Request: path 和 query /todo/index {}
+10:04:10 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=rges4klg52djlg2k']
+10:04:10 Request: headers 和 cookies {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Connection': 'keep-alive', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k', 'Host': 'localhost:3000', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': 'rges4klg52djlg2k', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:04:10 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "user_id": 0,
+    "id": 0
+  }
+]
+10:04:10 kwargs,  {'id': 0} <class 'dict'>
+10:04:10 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:04:10 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>web10 todo ajax</title>
+    </head>
+    <body>
+        <input id='id-input-todo'>
+        <button id='id-button-add'>添加</button>
+        <div id="todo-list">
+        </div>
+        <!-- 这是我们处理静态文件的套路 -->
+        <!-- gua.js 放了公共的函数 -->
+        <!-- 按顺序引入 2 个 js 文件, 后面的 js 文件就能使用前面的文件中的函数了 -->
+        <script src='/static?file=gua.js'></script>
+        <script src='/static?file=todo.js'></script>
+    </body>
+</html>
+10:04:10 ip ('127.0.0.1', 13677)
+10:04:10 ip ('127.0.0.1', 13678)
+10:04:10 request log:
+GET /static?file=gua.js HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: */*
+Referer: http://localhost:3000/todo/index
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k
+
+
+10:04:10 request log:
+GET /static?file=todo.js HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: */*
+Referer: http://localhost:3000/todo/index
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k
+
+
+10:04:10 Request: path 和 query /static {'file': 'todo.js'}
+10:04:10 Request: path 和 query /static {'file': 'gua.js'}
+10:04:10 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=rges4klg52djlg2k']
+10:04:10 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=rges4klg52djlg2k']
+10:04:10 Request: headers 和 cookies {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/todo/index', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Connection': 'keep-alive', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k', 'Host': 'localhost:3000', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': 'rges4klg52djlg2k', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:04:10 Request: headers 和 cookies {'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/todo/index', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Connection': 'keep-alive', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k', 'Host': 'localhost:3000', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': 'rges4klg52djlg2k', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:04:10 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "user_id": 0,
+    "id": 0
+  }
+]
+10:04:10 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "user_id": 0,
+    "id": 0
+  }
+]
+10:04:10 kwargs,  {'id': 0} <class 'dict'>
+10:04:10 kwargs,  {'id': 0} <class 'dict'>
+10:04:10 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:04:10 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:04:10 response for static size: 1134
+10:04:10 response for static size: 7372
+10:04:11 ip ('127.0.0.1', 13680)
+10:04:11 request log:
+GET /api/todo/all HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Content-Type: application/json
+Accept: */*
+Referer: http://localhost:3000/todo/index
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k
+
+
+10:04:11 Request: path 和 query /api/todo/all {}
+10:04:11 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=rges4klg52djlg2k']
+10:04:11 Request: headers 和 cookies {'Accept': '*/*', 'Content-Type': 'application/json', 'Referer': 'http://localhost:3000/todo/index', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Connection': 'keep-alive', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k', 'Host': 'localhost:3000', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': 'rges4klg52djlg2k', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:04:11 load []
+10:04:11 response log:
+HTTP/1.1 200 OK
+
+[]
+10:04:11 ip ('127.0.0.1', 13681)
+10:04:15 ip ('127.0.0.1', 13687)
+10:04:15 ip ('127.0.0.1', 13688)
+10:04:16 request log:
+GET /register HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k
+
+
+10:04:16 Request: path 和 query /register {}
+10:04:16 cookie ['Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4', 'optimizelyEndUserId=oeu1506606341693r0.8036024928121837', '_ga=GA1.1.2001716574.1504119810', 'session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'sid=rges4klg52djlg2k']
+10:04:16 Request: headers 和 cookies {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Connection': 'keep-alive', 'Cookie': 'Pycharm-eae28f8d=a5a3592a-9c9b-47b2-a028-a285504725e4; optimizelyEndUserId=oeu1506606341693r0.8036024928121837; _ga=GA1.1.2001716574.1504119810; session=eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s; sid=rges4klg52djlg2k', 'Host': 'localhost:3000', 'Upgrade-Insecure-Requests': '1', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': 'rges4klg52djlg2k', '_ga': 'GA1.1.2001716574.1504119810', 'Pycharm-eae28f8d': 'a5a3592a-9c9b-47b2-a028-a285504725e4', 'session': 'eyJfcGVybWFuZW50Ijp0cnVlLCJ1c2VyX2lkIjo2fQ.DMZAhg.7GQ3-WRZ9XNpoefrQf3tg6wNb3s', 'optimizelyEndUserId': 'oeu1506606341693r0.8036024928121837'}
+10:04:16 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<body>
+    <h1>注册</h1>
+    <form action="/register" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <button type="submit">注册</button>
+    </form>
+</body>
+</html>
+10:15:52 开始运行于 127.0.0.1:3000
+10:15:59 ip ('127.0.0.1', 13911)
+10:15:59 request log:
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+10:15:59 Request: path 和 query / {}
+10:15:59 cookie ['']
+10:15:59 Request: headers 和 cookies {'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Upgrade-Insecure-Requests': '1', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {}
+10:15:59 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "user_id": 0,
+    "id": 0
+  }
+]
+10:15:59 非登录用户
+10:15:59 redirect r HTTP/1.1 302 GUA
+Content-Type: text/html
+Location: /login
+
+
+10:15:59 response log:
+HTTP/1.1 302 GUA
+Content-Type: text/html
+Location: /login
+
+
+10:15:59 ip ('127.0.0.1', 13914)
+10:15:59 request log:
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+10:15:59 Request: path 和 query / {}
+10:15:59 cookie ['']
+10:15:59 Request: headers 和 cookies {'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Upgrade-Insecure-Requests': '1', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {}
+10:15:59 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "user_id": 0,
+    "id": 0
+  }
+]
+10:15:59 非登录用户
+10:15:59 redirect r HTTP/1.1 302 GUA
+Content-Type: text/html
+Location: /login
+
+
+10:15:59 response log:
+HTTP/1.1 302 GUA
+Content-Type: text/html
+Location: /login
+
+
+10:15:59 ip ('127.0.0.1', 13916)
+10:15:59 request log:
+GET /login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+
+
+10:15:59 Request: path 和 query /login {}
+10:15:59 cookie ['']
+10:15:59 Request: headers 和 cookies {'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Upgrade-Insecure-Requests': '1', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {}
+10:15:59 login, cookies {}
+10:15:59 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册登录页面</title>
+</head>
+<body>
+    <h1>登录</h1>
+    <h2>你好 </h2>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="请输入用户名">
+        <br>
+        <input type="text" name="password" placeholder="请输入密码">
+        <br>
+        <button type="submit">登录</button>
+    </form>
+    <h3></h3>
+</body>
+</html>
+10:16:00 ip ('127.0.0.1', 13917)
+10:16:00 ip ('127.0.0.1', 13918)
+10:16:04 request log:
+POST /login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 25
+Cache-Control: max-age=0
+Origin: http://localhost:3000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+
+username=xly&password=123
+10:16:04 Request: path 和 query /login {}
+10:16:04 cookie ['']
+10:16:04 Request: headers 和 cookies {'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '25', 'Origin': 'http://localhost:3000', 'Host': 'localhost:3000', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Cache-Control': 'max-age=0', 'Accept-Encoding': 'gzip, deflate, br', 'Upgrade-Insecure-Requests': '1', 'Referer': 'http://localhost:3000/login', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {}
+10:16:04 login, cookies {}
+10:16:04 kwargs,  {'username': 'xly'} <class 'dict'>
+10:16:04 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:04 kwargs,  {'username': 'xly'} <class 'dict'>
+10:16:04 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:04 debug save
+10:16:04 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "user_id": 0,
+    "id": 0
+  }
+]
+10:16:04 models [< Session
+session_id: (rges4klg52djlg2k)
+id: (0)
+user_id: (0) 
+>
+]
+10:16:04 id is None
+10:16:04 save data/Session.txt [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+] [{'session_id': 'rges4klg52djlg2k', 'id': 0, 'user_id': 0}, {'session_id': '4k2blr23dk534ll2', 'id': 1, 'user_id': 0}]
+10:16:04 session < Session
+session_id: (4k2blr23dk534ll2)
+id: (1)
+user_id: (0) 
+>
+
+10:16:04 redirect r HTTP/1.1 302 GUA
+Content-Type: text/html
+Location: /
+Set-Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:04 response log:
+HTTP/1.1 302 GUA
+Content-Type: text/html
+Location: /
+Set-Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:04 request log:
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/login
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:04 Request: path 和 query / {}
+10:16:04 cookie ['sid=4k2blr23dk534ll2']
+10:16:04 Request: headers 和 cookies {'Cache-Control': 'max-age=0', 'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/login', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Upgrade-Insecure-Requests': '1', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:04 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:04 kwargs,  {'id': 0} <class 'dict'>
+10:16:04 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:04 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:04 kwargs,  {'id': 0} <class 'dict'>
+10:16:04 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:04 current user < User
+username: (xly)
+password: (dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b)
+id: (0) 
+>
+
+10:16:04 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+</head>
+<body>
+    <h1>Hello xly</h1>
+    <img src="/static?file=doge.gif"/>
+    <img src="/static?file=doge1.jpg"/>
+    <img src="/static?file=doge2.gif"/>
+    <br>
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
+    <a href="/todo/index">Todo</a>
+    <a href="/weibo/index">Weibo</a>
+</body>
+</html>
+10:16:04 ip ('127.0.0.1', 13923)
+10:16:04 ip ('127.0.0.1', 13924)
+10:16:04 request log:
+GET /static?file=doge1.jpg HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:04 ip ('127.0.0.1', 13925)
+10:16:04 request log:
+GET /static?file=doge.gif HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:04 Request: path 和 query /static {'file': 'doge1.jpg'}
+10:16:04 Request: path 和 query /static {'file': 'doge.gif'}
+10:16:04 cookie ['sid=4k2blr23dk534ll2']
+10:16:04 request log:
+GET /static?file=doge2.gif HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:04 cookie ['sid=4k2blr23dk534ll2']
+10:16:04 Request: path 和 query /static {'file': 'doge2.gif'}
+10:16:04 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:04 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:04 cookie ['sid=4k2blr23dk534ll2']
+10:16:04 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:04 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:04 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:04 kwargs,  {'id': 0} <class 'dict'>
+10:16:04 kwargs,  {'id': 0} <class 'dict'>
+10:16:04 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:04 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:04 response for static size: 2643
+10:16:04 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:04 response for static size: 3690
+10:16:04 kwargs,  {'id': 0} <class 'dict'>
+10:16:04 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:04 response for static size: 9564
+10:16:04 ip ('127.0.0.1', 13926)
+10:16:06 request log:
+GET /todo/index HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:06 Request: path 和 query /todo/index {}
+10:16:06 cookie ['sid=4k2blr23dk534ll2']
+10:16:06 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Upgrade-Insecure-Requests': '1', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:06 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:06 kwargs,  {'id': 0} <class 'dict'>
+10:16:06 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:06 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>web10 todo ajax</title>
+    </head>
+    <body>
+        <input id='id-input-todo'>
+        <button id='id-button-add'>添加</button>
+        <div id="todo-list">
+        </div>
+        <!-- 这是我们处理静态文件的套路 -->
+        <ajax.jsa.js 放了公共的函数 -->
+        <!-- 按顺序引入 2 个 js 文件, 后面的 js 文件就能使用前面的文件中的函数了 -->
+        <script src='/static?file=ajax.js'></script>
+        <script src='/static?file=todo.js'></script>
+    </body>
+</html>
+10:16:07 ip ('127.0.0.1', 13932)
+10:16:07 ip ('127.0.0.1', 13933)
+10:16:07 request log:
+GET /static?file=ajax.js HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: */*
+Referer: http://localhost:3000/todo/index
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:07 Request: path 和 query /static {'file': 'ajax.js'}
+10:16:07 cookie ['sid=4k2blr23dk534ll2']
+10:16:07 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/todo/index', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:07 request log:
+GET /static?file=todo.js HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: */*
+Referer: http://localhost:3000/todo/index
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:07 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:07 Request: path 和 query /static {'file': 'todo.js'}
+10:16:07 cookie ['sid=4k2blr23dk534ll2']
+10:16:07 kwargs,  {'id': 0} <class 'dict'>
+10:16:07 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/todo/index', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:07 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:07 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:07 response for static size: 1095
+10:16:07 kwargs,  {'id': 0} <class 'dict'>
+10:16:07 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:07 response for static size: 7372
+10:16:07 ip ('127.0.0.1', 13935)
+10:16:07 request log:
+GET /api/todo/all HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Content-Type: application/json
+Accept: */*
+Referer: http://localhost:3000/todo/index
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:07 Request: path 和 query /api/todo/all {}
+10:16:07 cookie ['sid=4k2blr23dk534ll2']
+10:16:07 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Content-Type': 'application/json', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Referer': 'http://localhost:3000/todo/index', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:07 load []
+10:16:07 response log:
+HTTP/1.1 200 OK
+
+[]
+10:16:07 ip ('127.0.0.1', 13936)
+10:16:08 request log:
+POST /api/todo/add HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 13
+Origin: http://localhost:3000
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Content-Type: application/json
+Accept: */*
+Referer: http://localhost:3000/todo/index
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+{"task":"dd"}
+10:16:08 Request: path 和 query /api/todo/add {}
+10:16:08 cookie ['sid=4k2blr23dk534ll2']
+10:16:08 Request: headers 和 cookies {'Referer': 'http://localhost:3000/todo/index', 'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Content-Type': 'application/json', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Content-Length': '13', 'Origin': 'http://localhost:3000', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': '*/*', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:08 debug save
+10:16:08 load []
+10:16:08 models []
+10:16:08 id is None
+10:16:08 first index 0
+10:16:08 save data/Todo.txt [
+  {
+    "task": "dd",
+    "updated_time": 1508206568,
+    "created_time": 1508206568,
+    "id": 0,
+    "user_id": null
+  }
+] [{'task': 'dd', 'updated_time': 1508206568, 'created_time': 1508206568, 'id': 0, 'user_id': None}]
+10:16:08 response log:
+HTTP/1.1 200 OK
+
+{
+  "task": "dd",
+  "updated_time": 1508206568,
+  "created_time": 1508206568,
+  "id": 0,
+  "user_id": null
+}
+10:16:11 ip ('127.0.0.1', 13940)
+10:16:11 request log:
+GET /weibo/index HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:11 Request: path 和 query /weibo/index {}
+10:16:11 cookie ['sid=4k2blr23dk534ll2']
+10:16:11 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Upgrade-Insecure-Requests': '1', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:11 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:11 kwargs,  {'id': 0} <class 'dict'>
+10:16:11 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:11 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:11 kwargs,  {'id': 0} <class 'dict'>
+10:16:11 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:11 kwargs,  {'user_id': 0} <class 'dict'>
+10:16:11 load []
+10:16:11 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>weibo</title>
+    <style>
+        .comment {
+            border: 1px red solid;
+        }
+    </style>
+</head>
+<body>
+    <a href="/weibo/new">写新微博</a>
+
+    
+</body>
+</html>
+10:16:12 ip ('127.0.0.1', 13941)
+10:16:12 request log:
+GET /weibo/new HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/weibo/index
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:12 Request: path 和 query /weibo/new {}
+10:16:12 cookie ['sid=4k2blr23dk534ll2']
+10:16:12 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/weibo/index', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Upgrade-Insecure-Requests': '1', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:12 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:12 kwargs,  {'id': 0} <class 'dict'>
+10:16:12 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:12 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>weibo new</title>
+</head>
+<body>
+    <form action="/weibo/add" method="post">
+        <input name="content">
+        <br>
+        <button type="submit">发表新微博</button>
+    </form>
+</body>
+</html>
+10:16:15 ip ('127.0.0.1', 13945)
+10:16:15 request log:
+POST /weibo/add HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 12
+Cache-Control: max-age=0
+Origin: http://localhost:3000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/weibo/new
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+content=eeee
+10:16:15 Request: path 和 query /weibo/add {}
+10:16:15 cookie ['sid=4k2blr23dk534ll2']
+10:16:15 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '12', 'Origin': 'http://localhost:3000', 'Host': 'localhost:3000', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Cache-Control': 'max-age=0', 'Accept-Encoding': 'gzip, deflate, br', 'Upgrade-Insecure-Requests': '1', 'Referer': 'http://localhost:3000/weibo/new', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:15 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:15 kwargs,  {'id': 0} <class 'dict'>
+10:16:15 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:15 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:15 kwargs,  {'id': 0} <class 'dict'>
+10:16:15 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:15 debug save
+10:16:15 load []
+10:16:15 models []
+10:16:15 id is None
+10:16:15 first index 0
+10:16:15 save data/Weibo.txt [
+  {
+    "user_id": 0,
+    "id": 0,
+    "content": "eeee"
+  }
+] [{'user_id': 0, 'id': 0, 'content': 'eeee'}]
+10:16:15 redirect r HTTP/1.1 302 GUA
+Content-Type: text/html
+Location: /weibo/index
+
+
+10:16:15 response log:
+HTTP/1.1 302 GUA
+Content-Type: text/html
+Location: /weibo/index
+
+
+10:16:15 ip ('127.0.0.1', 13948)
+10:16:15 request log:
+GET /weibo/index HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/weibo/new
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:15 Request: path 和 query /weibo/index {}
+10:16:15 cookie ['sid=4k2blr23dk534ll2']
+10:16:15 Request: headers 和 cookies {'Cache-Control': 'max-age=0', 'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/weibo/new', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Upgrade-Insecure-Requests': '1', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:15 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:15 kwargs,  {'id': 0} <class 'dict'>
+10:16:15 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:15 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:15 kwargs,  {'id': 0} <class 'dict'>
+10:16:15 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:15 kwargs,  {'user_id': 0} <class 'dict'>
+10:16:15 load [
+  {
+    "user_id": 0,
+    "id": 0,
+    "content": "eeee"
+  }
+]
+10:16:15 kwargs,  {'weibo_id': 0} <class 'dict'>
+10:16:15 load []
+10:16:15 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>weibo</title>
+    <style>
+        .comment {
+            border: 1px red solid;
+        }
+    </style>
+</head>
+<body>
+    <a href="/weibo/new">写新微博</a>
+
+    
+    <p>
+        eeee from xly
+        <a href="/weibo/delete?id=0">删除</a>
+        <a href="/weibo/edit?id=0">修改</a>
+        
+        <form action="/comment/add" method="post">
+            <input type="hidden" name="weibo_id" value="0">
+            <input name="content">
+            <br>
+            <button type="submit">添加评论</button>
+        </form>
+    </p>
+    
+</body>
+</html>
+10:16:15 ip ('127.0.0.1', 13949)
+10:16:18 request log:
+GET /weibo/edit?id=0 HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/weibo/index
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:18 Request: path 和 query /weibo/edit {'id': '0'}
+10:16:18 cookie ['sid=4k2blr23dk534ll2']
+10:16:18 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/weibo/index', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Upgrade-Insecure-Requests': '1', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:18 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:18 kwargs,  {'id': 0} <class 'dict'>
+10:16:18 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:18 same user required <request.Request object at 0x0056A330>
+10:16:18 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:18 kwargs,  {'id': 0} <class 'dict'>
+10:16:18 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:18 kwargs,  {'id': 0} <class 'dict'>
+10:16:18 load [
+  {
+    "user_id": 0,
+    "id": 0,
+    "content": "eeee"
+  }
+]
+10:16:18 kwargs,  {'id': 0} <class 'dict'>
+10:16:18 load [
+  {
+    "user_id": 0,
+    "id": 0,
+    "content": "eeee"
+  }
+]
+10:16:18 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改 weibo 的页面</title>
+</head>
+<body>
+    <h1>修改 todo</h1>
+    <form action="/weibo/update" method="post">
+        <input hidden="hidden" name="id" placeholder="id" value="0"></input>
+        <br>
+        <input name="content" placeholder="content" value="eeee"></input>
+        <br>
+        <button>提交修改</button>
+    </form>
+</body>
+</html>
+10:16:19 ip ('127.0.0.1', 13956)
+10:16:19 request log:
+POST /weibo/update HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 19
+Cache-Control: max-age=0
+Origin: http://localhost:3000
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/weibo/edit?id=0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+id=0&content=eeee11
+10:16:19 Request: path 和 query /weibo/update {}
+10:16:19 cookie ['sid=4k2blr23dk534ll2']
+10:16:19 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': '19', 'Origin': 'http://localhost:3000', 'Host': 'localhost:3000', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Cache-Control': 'max-age=0', 'Accept-Encoding': 'gzip, deflate, br', 'Upgrade-Insecure-Requests': '1', 'Referer': 'http://localhost:3000/weibo/edit?id=0', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'Connection': 'keep-alive', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:19 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:19 kwargs,  {'id': 0} <class 'dict'>
+10:16:19 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:19 same user required <request.Request object at 0x0056A330>
+10:16:19 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:19 kwargs,  {'id': 0} <class 'dict'>
+10:16:19 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:19 kwargs,  {'id': 0} <class 'dict'>
+10:16:19 load [
+  {
+    "user_id": 0,
+    "id": 0,
+    "content": "eeee"
+  }
+]
+10:16:19 kwargs,  {'id': 0} <class 'dict'>
+10:16:19 load [
+  {
+    "user_id": 0,
+    "id": 0,
+    "content": "eeee"
+  }
+]
+10:16:19 debug save
+10:16:19 load [
+  {
+    "user_id": 0,
+    "id": 0,
+    "content": "eeee"
+  }
+]
+10:16:19 models [< Weibo
+user_id: (0)
+id: (0)
+content: (eeee) 
+>
+]
+10:16:19 id is not None
+10:16:19 save data/Weibo.txt [
+  {
+    "user_id": 0,
+    "id": 0,
+    "content": "eeee11"
+  }
+] [{'user_id': 0, 'id': 0, 'content': 'eeee11'}]
+10:16:19 redirect r HTTP/1.1 302 GUA
+Content-Type: text/html
+Location: /weibo/index
+
+
+10:16:19 response log:
+HTTP/1.1 302 GUA
+Content-Type: text/html
+Location: /weibo/index
+
+
+10:16:20 ip ('127.0.0.1', 13958)
+10:16:20 request log:
+GET /weibo/index HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://localhost:3000/weibo/edit?id=0
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:20 Request: path 和 query /weibo/index {}
+10:16:20 cookie ['sid=4k2blr23dk534ll2']
+10:16:20 Request: headers 和 cookies {'Cache-Control': 'max-age=0', 'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/weibo/edit?id=0', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Upgrade-Insecure-Requests': '1', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:20 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:20 kwargs,  {'id': 0} <class 'dict'>
+10:16:20 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:20 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:20 kwargs,  {'id': 0} <class 'dict'>
+10:16:20 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:20 kwargs,  {'user_id': 0} <class 'dict'>
+10:16:20 load [
+  {
+    "user_id": 0,
+    "id": 0,
+    "content": "eeee11"
+  }
+]
+10:16:20 kwargs,  {'weibo_id': 0} <class 'dict'>
+10:16:20 load []
+10:16:20 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>weibo</title>
+    <style>
+        .comment {
+            border: 1px red solid;
+        }
+    </style>
+</head>
+<body>
+    <a href="/weibo/new">写新微博</a>
+
+    
+    <p>
+        eeee11 from xly
+        <a href="/weibo/delete?id=0">删除</a>
+        <a href="/weibo/edit?id=0">修改</a>
+        
+        <form action="/comment/add" method="post">
+            <input type="hidden" name="weibo_id" value="0">
+            <input name="content">
+            <br>
+            <button type="submit">添加评论</button>
+        </form>
+    </p>
+    
+</body>
+</html>
+10:16:20 ip ('127.0.0.1', 13959)
+10:16:28 request log:
+GET / HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:28 Request: path 和 query / {}
+10:16:28 cookie ['sid=4k2blr23dk534ll2']
+10:16:28 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Upgrade-Insecure-Requests': '1', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:28 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:28 kwargs,  {'id': 0} <class 'dict'>
+10:16:28 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:28 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:28 kwargs,  {'id': 0} <class 'dict'>
+10:16:28 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:28 current user < User
+username: (xly)
+password: (dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b)
+id: (0) 
+>
+
+10:16:28 response log:
+HTTP/1.1 200 GUA
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+</head>
+<body>
+    <h1>Hello xly</h1>
+    <img src="/static?file=doge.gif"/>
+    <img src="/static?file=doge1.jpg"/>
+    <img src="/static?file=doge2.gif"/>
+    <br>
+    <a href="/login">Login</a>
+    <a href="/register">Register</a>
+    <a href="/todo/index">Todo</a>
+    <a href="/weibo/index">Weibo</a>
+</body>
+</html>
+10:16:28 ip ('127.0.0.1', 13965)
+10:16:28 ip ('127.0.0.1', 13966)
+10:16:28 request log:
+GET /static?file=doge.gif HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:28 request log:
+GET /static?file=doge1.jpg HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:28 ip ('127.0.0.1', 13967)
+10:16:28 Request: path 和 query /static {'file': 'doge1.jpg'}
+10:16:28 Request: path 和 query /static {'file': 'doge.gif'}
+10:16:28 cookie ['sid=4k2blr23dk534ll2']
+10:16:28 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:28 cookie ['sid=4k2blr23dk534ll2']
+10:16:28 request log:
+GET /static?file=doge2.gif HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: sid=4k2blr23dk534ll2
+
+
+10:16:28 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:28 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:28 Request: path 和 query /static {'file': 'doge2.gif'}
+10:16:28 kwargs,  {'id': 0} <class 'dict'>
+10:16:28 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:28 cookie ['sid=4k2blr23dk534ll2']
+10:16:28 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:28 Request: headers 和 cookies {'Cookie': 'sid=4k2blr23dk534ll2', 'Accept-Encoding': 'gzip, deflate, br', 'Referer': 'http://localhost:3000/', 'Accept-Language': 'zh-CN,zh;q=0.8', 'Host': 'localhost:3000', 'Connection': 'keep-alive', 'Accept': 'image/webp,image/apng,image/*,*/*;q=0.8', 'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'} {'sid': '4k2blr23dk534ll2'}
+10:16:28 kwargs,  {'id': 0} <class 'dict'>
+10:16:28 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:28 load [
+  {
+    "session_id": "rges4klg52djlg2k",
+    "id": 0,
+    "user_id": 0
+  },
+  {
+    "session_id": "4k2blr23dk534ll2",
+    "id": 1,
+    "user_id": 0
+  }
+]
+10:16:28 response for static size: 3690
+10:16:28 response for static size: 2643
+>
+10:16:28 load [
+  {
+    "username": "xly",
+    "password": "dabe8fbbed00dbf72144618dfa56b6eff40207b290013639faa13ecb09f90c3b",
+    "id": 0
+  }
+]
+10:16:28 response for static size: 9564
+10:16:28 ip ('127.0.0.1', 13968)
+10:16:32 request log:
+
